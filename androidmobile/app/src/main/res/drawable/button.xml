@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape  xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    màu nền của đối tượng-->
+    <solid
+        android:color = "#DBA4A0"/>
+    <!--độ dày và màu của đường bao-->
+    <stroke
+        android:color="#D71A1A"
+        android:width="5dp"
+        />
+    <!--    độ bo tròn của góc-->
+    <corners
+        android:radius="30dp"/>
+
+</shape>

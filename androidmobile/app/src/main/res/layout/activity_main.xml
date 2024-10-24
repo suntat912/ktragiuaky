@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="97dp"
+        android:contentDescription=" LoGo"
+        android:src="@drawable/logo_dh_cong_nghe_dong_a_eaut"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Đăng Nhập"
+        android:textColor="#E91E63"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edittaikhoan"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:hint="Tên đăng nhập"
+        android:paddingStart="15dp"
+        android:background="@drawable/edittext_border"
+
+        />
+    <EditText
+        android:id="@+id/editmatkhau"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:hint="Mật khẩu"
+        android:paddingStart="15dp"
+        android:background="@drawable/edittext_border"
+
+        />
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttondangnhap"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG NHẬP"
+
+
+        />
+    <Button
+        android:id="@+id/buttondangky"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        />
+
+</LinearLayout>
